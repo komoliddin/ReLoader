@@ -1,0 +1,49 @@
+﻿[=== КОНФИГУРАЦИЯ RELOADER BY KOMOLIDDIN ===]
+[Автозагрузка: 1-реестр, 2-Startup, 3-оба, 0-удалить]
+SHORTCUT_AUTOSTART=0
+[Автообновление: 1-да, 0-нет]
+AUTOUPDATE=1
+[Ярлык на р.столе: 1-да, 0-нет]
+SHORTCUT_DESKTOP=1
+[Прозрачность: 25-100]
+OPACITY=75
+[Закрепить окно: 1-да, 0-нет]
+PIN=0
+[Звук при клике: 1-да, 0-нет]
+SOUND=1
+[Панель задач: 1-да, 0-нет]
+TASKBAR=1
+[Иконка в трее: 1-да, 0-нет]
+TRAY=1
+
+[--- НОВИНКИ ВЕРСИИ 2.6.0.0 ---]
+[Стелс-режим: 1-окно скрыто при старте, 0-обычный. ВАЖНО: При включении Стелса иконка в трее будет показана принудительно!]
+STEALTH_MODE=0
+[Горячая клавиша: например Alt+R, Ctrl+Shift+L, Ctrl+Alt+S]
+HOTKEY=Alt+R
+[Свой звук: укажите полный путь к .wav файлу. Если пусто - играет встроенный]
+SOUND_FILE=
+[Режим Сторож: 1-перезапуск закрытых программ, 0-выкл]
+WATCHDOG=0
+[Умный запуск: 1-не открывать если уже запущено, 0-открывать всегда]
+SMART_LAUNCH=1
+
+[--- ВНЕШНИЙ ВИД ---]
+[Цвет текста: название или HEX]
+COLOR_TEXT=White
+[COLOR_BG=Black]
+
+[--- ПОЗИЦИЯ И РАЗМЕР ---]
+LEFT=417
+TOP=0
+SIZE=50
+
+[--- ПАРАМЕТРЫ ЗАПУСКА ---]
+DELAY=2
+[При сохранении настроек программа автоматически создает бэкап ReLoaderCFG.txt.bak]
+
+TASKKILL=cmd.exe
+AUTOSTART=C:\Windows\System32\cmd.exe
+START=C:\Windows\System32\cmd.exe
+STARTBOTH=C:\Windows\System32\cmd.exe
+START=C:\Users\PC\source\repos\ReLoader\bin\Release\ReLoader.exe
