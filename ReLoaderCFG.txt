@@ -1,6 +1,6 @@
 ﻿[=== КОНФИГУРАЦИЯ RELOADER BY KOMOLIDDIN ===]
-[Автозагрузка: 1-реестр, 2-Startup, 3-оба, 0-удалить]
-SHORTCUT_AUTOSTART=0
+[Автозагрузка: 1-реестр, 2-папка, 3-оба, 0-удалить]
+SHORTCUT_AUTOSTART=1
 [Автообновление: 1-да, 0-нет]
 AUTOUPDATE=1
 [Ярлык на р.столе: 1-да, 0-нет]
@@ -8,7 +8,7 @@ SHORTCUT_DESKTOP=1
 [Прозрачность: 25-100]
 OPACITY=75
 [Закрепить окно: 1-да, 0-нет]
-PIN=0
+PIN=1
 [Звук при клике: 1-да, 0-нет]
 SOUND=1
 [Панель задач: 1-да, 0-нет]
@@ -34,7 +34,7 @@ COLOR_TEXT=White
 [COLOR_BG=Black]
 
 [--- ПОЗИЦИЯ И РАЗМЕР ---]
-LEFT=417
+LEFT=CENTER
 TOP=0
 SIZE=50
 
@@ -46,4 +46,3 @@ TASKKILL=cmd.exe
 AUTOSTART=C:\Windows\System32\cmd.exe
 START=C:\Windows\System32\cmd.exe
 STARTBOTH=C:\Windows\System32\cmd.exe
-START=C:\Users\PC\source\repos\ReLoader\bin\Release\ReLoader.exe
