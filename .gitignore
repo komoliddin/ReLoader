@@ -40,3 +40,4 @@ __pycache__/
 # JSON — лучше точечно (пример)
 # config.json
 # secrets.json
+templates
