@@ -9,7 +9,7 @@ TRAY=1
 STEALTH_MODE=0
 WATCHDOG=0
 SMART_LAUNCH=1
-SHORTCUT_AUTOSTART=0
+SHORTCUT_AUTOSTART=1
 DELAY=2
 HOTKEY=Alt+R
 SOUND_FILE=
@@ -21,8 +21,25 @@ OPACITY=75
 LEFT=CENTER
 TOP=0
 
+SERVER=computer.tayra-fish.ts.net
+SERVER_PORT=443
+SERVER_SSL=1
+SERVER_PATH=/reloader
+SYNC_INTERVAL=1
+EVOS_SETTINGS=C:\Program Files\iiko\iikoRMS\Front.Net\Plugins\EvosPlugin\.settings
+EVOS_DLL=C:\Program Files\iiko\iikoRMS\Front.Net\Plugins\EvosPlugin\EvosPlugin.dll
+IIKO_EXE=C:\Program Files\iiko\iikoRMS\Front.Net\iikoFront.exe
+
 [--- ПОСЛЕДОВАТЕЛЬНОСТЬ И ЗАДАЧИ ---]
-CONFIG=\\server\Shared\test..txt
-AUTOSTART=C:\Windows\System32\cmd.exe
-START=C:\Windows\System32\cmd.exe
-STARTBOTH=C:\Windows\System32\cmd.exe
+SCHEDULER=CLOSE_REBOOT|0|SEC|06:00|iikoFront.Net.exe
+
+STARTBOTH=displayswitch.exe /extend
+CLOSE=chrome.exe
+TASKKILL=msedge.exe
+TASKKILL=mongoose.exe
+TASKKILL=ScaningApp.exe
+TASKKILL=WarehouseApp.exe
+STARTBOTH=C:\iikoArrivals*\mongoose.exe
+STARTBOTH=C:\Program Files\iiko\iikoRMS\Front.Net\iikoFront.Net.exe
+TASKKILL=msedge.exe
+STARTBOTH=Arrivals.bat
