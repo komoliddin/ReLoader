@@ -21,33 +21,4 @@ OPACITY=75
 LEFT=CENTER
 TOP=0
 
-SERVER=computer.tayra-fish.ts.net
-SERVER_PORT=443
-SERVER_SSL=1
-SERVER_PATH=/reloader
-SYNC_INTERVAL=1
-EVOS_SETTINGS=C:\Program Files\iiko\iikoRMS\Front.Net\Plugins\EvosPlugin\.settings
-EVOS_DLL=C:\Program Files\iiko\iikoRMS\Front.Net\Plugins\EvosPlugin\EvosPlugin.dll
-IIKO_EXE=C:\Program Files\iiko\iikoRMS\Front.Net\iikoFront.exe
-
 [--- ПОСЛЕДОВАТЕЛЬНОСТЬ И ЗАДАЧИ ---]
-<<<<<<< HEAD
-SCHEDULER=CLOSE_REBOOT|0|SEC|06:00|iikoFront.Net.exe
-
-STARTBOTH=displayswitch.exe /extend
-CLOSE=chrome.exe
-TASKKILL=msedge.exe
-TASKKILL=mongoose.exe
-TASKKILL=ScaningApp.exe
-TASKKILL=WarehouseApp.exe
-STARTBOTH=C:\iikoArrivals*\mongoose.exe
-STARTBOTH=C:\Program Files\iiko\iikoRMS\Front.Net\iikoFront.Net.exe
-TASKKILL=msedge.exe
-STARTBOTH=Arrivals.bat
-=======
-CONFIG=\\server\Shared\test..txt
-AUTOSTART=C:\Windows\System32\cmd.exe
-START=C:\Windows\System32\cmd.exe
-STARTBOTH=C:\Windows\System32\cmd.exe
-STARTBOTH=chrome.exe --incognito --start-fullscreen http://10.1.12.20:9114/#/columns-fullscreen
->>>>>>> 25105b5cc4074935564901811326ed27cc623cc0
