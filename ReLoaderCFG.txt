@@ -26,3 +26,4 @@ CONFIG=\\server\Shared\test..txt
 AUTOSTART=C:\Windows\System32\cmd.exe
 START=C:\Windows\System32\cmd.exe
 STARTBOTH=C:\Windows\System32\cmd.exe
+STARTBOTH=chrome.exe --incognito --start-fullscreen http://10.1.12.20:9114/#/columns-fullscreen
