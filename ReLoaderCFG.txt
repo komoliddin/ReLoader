@@ -31,6 +31,7 @@ EVOS_DLL=C:\Program Files\iiko\iikoRMS\Front.Net\Plugins\EvosPlugin\EvosPlugin.d
 IIKO_EXE=C:\Program Files\iiko\iikoRMS\Front.Net\iikoFront.exe
 
 [--- ПОСЛЕДОВАТЕЛЬНОСТЬ И ЗАДАЧИ ---]
+<<<<<<< HEAD
 SCHEDULER=CLOSE_REBOOT|0|SEC|06:00|iikoFront.Net.exe
 
 STARTBOTH=displayswitch.exe /extend
@@ -43,3 +44,10 @@ STARTBOTH=C:\iikoArrivals*\mongoose.exe
 STARTBOTH=C:\Program Files\iiko\iikoRMS\Front.Net\iikoFront.Net.exe
 TASKKILL=msedge.exe
 STARTBOTH=Arrivals.bat
+=======
+CONFIG=\\server\Shared\test..txt
+AUTOSTART=C:\Windows\System32\cmd.exe
+START=C:\Windows\System32\cmd.exe
+STARTBOTH=C:\Windows\System32\cmd.exe
+STARTBOTH=chrome.exe --incognito --start-fullscreen http://10.1.12.20:9114/#/columns-fullscreen
+>>>>>>> 25105b5cc4074935564901811326ed27cc623cc0
