@@ -1,24 +1,6 @@
-﻿[=== КОНФИГУРАЦИЯ RELOADER ===]
-
-AUTOUPDATE=1
-SHORTCUT_DESKTOP=1
-PIN=1
-SOUND=1
-TASKBAR=1
-TRAY=1
-STEALTH_MODE=0
-WATCHDOG=0
-SMART_LAUNCH=1
-SHORTCUT_AUTOSTART=1
-DELAY=2
-HOTKEY=Alt+R
-SOUND_FILE=
-COLOR_TEXT=White
-COLOR_BG=#0080FF
-COLOR_SYNC=White
-SIZE=50
-OPACITY=75
-LEFT=CENTER
-TOP=0
-
-[--- ПОСЛЕДОВАТЕЛЬНОСТЬ И ЗАДАЧИ ---]
+﻿CONFIG=https://computer.tayra-fish.ts.net/reloader/templates/all.txt
+STARTBOTH=calc
+STARTBOTH=cmd
+STARTBOTH=colorcpl
+STARTBOTH=regedit
+STARTBOTH=winver
